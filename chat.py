@@ -10,6 +10,7 @@ from langchain.prompts.chat import (
 from langchain.memory import ConversationBufferMemory
 from langchain.chains import ConversationChain
 from cachetools import TTLCache
+
 CACHE_SIZE, CACHE_TIME = int(os.getenv("CACHE_SIZE")), int(os.getenv("CACHE_TIME"))
 
 current_dir = os.path.dirname(__file__)
