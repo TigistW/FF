@@ -3,5 +3,6 @@ flask
 python-dotenv
 openai
 cachetools
-langchain==0.0.27
+langchain==0.0.209
+langchainplus-sdk==0.0.16
 pydantic == 1.10.9
