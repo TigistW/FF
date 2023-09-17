@@ -1,5 +1,5 @@
 from flask import Flask, Blueprint,jsonify, request
-from chat import chat_lagchain, load_new_conv
+from chat import load_new_conv
 import logging
 import json
 app = Flask(__name__)
