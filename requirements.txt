@@ -2,3 +2,5 @@ gunicorn
 flask
 python-dotenv
 openai
+langchain
+cachetools
